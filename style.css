@@ -162,11 +162,19 @@ body {
 }
 .main-cards {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 .main-card {
+    display: block;
     margin-bottom: 20px;
+    color: #151C22;
+    width: 270px;
+}
+.main-card:hover {
+    color: #151C22;
+    text-decoration: none;
 }
 .main-card-img {
     width: 270px;
