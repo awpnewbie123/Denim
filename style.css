@@ -76,6 +76,7 @@ body {
     color: #151C22;
     margin: 0;
     margin-top: -35px;
+    margin-left: -5px;
 }
 .button-big {
     font-family: 'Work Sans';
@@ -128,6 +129,7 @@ body {
     justify-content: space-between;
     color: #151C22;
     margin-bottom: 70px;
+    margin-top: 100px;
 }
 .header-name {
     font-weight: bold;
@@ -155,15 +157,15 @@ body {
 .bestsellers {
     margin-top: 130px;
 }
-.bestsellers-cards {
+.main-cards {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.bestsellers-card {
+.main-card {
     margin-bottom: 20px;
 }
-.bestsellers-card-img {
+.main-card-img {
     width: 270px;
     height: 349px;
 }
@@ -179,9 +181,7 @@ body {
     line-height: 19px;
 }
 /* news */
-.news-section {
-    margin-top: 88px;
-}
+/* .news-section {} */
 .news-content {
     display: flex;
 }
@@ -241,3 +241,54 @@ body {
     max-width: 310px;
     margin-bottom: 24px;
 }
+/* new-over */
+/* category */
+.category {
+    margin-bottom: 100px;
+}
+/* category-over */
+.footer, .footer a {
+    color: white;
+    text-decoration: none;
+    background-color: #151C22;
+    list-style: none;
+}
+.footer {
+    text-align: center; 
+    padding-top: 51px;
+    padding-bottom: 50px;
+}
+.footer-menu li, .footer-socials li {
+    list-style-type: none;
+}
+.footer-header {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 35px;
+    margin-top: 0;
+}
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 480px;
+    margin-left: 35%;
+    margin-top: 0;
+    margin-bottom: 37px;
+}
+.footer-socials {
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+    margin-left: 43%;
+}
+
+.footer-socials-link {
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+
+
