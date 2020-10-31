@@ -1,3 +1,7 @@
+@import 'bootstrap';
+@import 'sass';
+
+
 body {
     font-family: 'Work Sans', sans-serif;
     font-weight: 500;
@@ -139,12 +143,14 @@ body {
     font-size: 32px;
     line-height: 38px;
 }
-.view-all, .view-all:active {
+.view-all, .view-all:active, .view-all:focus, .view-all:hover {
     text-decoration: none;
     font-weight: 500;
     font-size: 18px;
     position: relative;
     color: #151C22;
+    border: none;
+    background-color: white;
 }
 .view-all::after {
     content: '';
@@ -152,7 +158,7 @@ body {
     height: 2px;
     background-color: #151C22;
     position: absolute;
-    bottom: 10px;
+    bottom: 5px;
     left: -2px;
 }
 
@@ -165,6 +171,8 @@ body {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+    overflow: hidden;
+    max-height: 400px;
 }
 .main-card {
     display: block;

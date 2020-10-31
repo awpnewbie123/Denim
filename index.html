@@ -6,7 +6,6 @@
     <title>Denim</title>
     <link href="style.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 <body>
     <div class="header container"> <!--header-->
@@ -29,7 +28,7 @@
                 <p class="promo__text-name">DENIM</p>
                 <button class="promo__text-button button-big">Check new collection</button>
             </div>    
-            <div class="promo__photo-block">
+            <div class=promo__photo-block">
                 <div>
                     <img src="./png/promo-img.png" alt="img-promo" class="promo-img">
                     <div class="diagonal"></div>
@@ -41,7 +40,7 @@
     <section class="bestsellers container"> <!-- bestsellers-section -->
         <div class="header-strape">
             <div class="header-name">Bestsellers</div>
-            <a href="#" class="view-all">View all</a>
+            <a href="#" class="view-all view-all-first">View all</a>
         </div>
         <div class="main-cards">
             <a href="./models.html" class="main-card">
@@ -49,27 +48,47 @@
                 <p class="position-name">Jacket</p>
                 <p class="position-price">$120</p>
             </a>
-            <div class="main-card">
+            <a href="./models.html" class="main-card">
                 <img src="./png/positions-picture/2.png" alt="position-picture" class="main-card-img">
                 <p class="position-name">Overalls</p>
                 <p class="position-price">$140</p>
-            </div>
-            <div class="main-card">
+            </a>
+            <a href="./models.html" class="main-card">
                 <img src="./png/positions-picture/3.png" alt="position-picture" class="main-card-img">
                 <p class="position-name">Jacket</p>
                 <p class="position-price">$90</p>
-            </div>
-            <div class="main-card">
+            </a>
+            <a href="./models.html" class="main-card">
                 <img src="./png/positions-picture/4.png" alt="position-picture" class="main-card-img">
                 <p class="position-name">Overalls</p>
                 <p class="position-price">$160</p>
-            </div>
+            </a>
+            <a href="./models.html" class="main-card">
+                <img src="./png/positions-picture/1.png" alt="position-picture" class="main-card-img">
+                <p class="position-name">Jacket</p>
+                <p class="position-price">$120</p>
+            </a>
+            <a href="./models.html" class="main-card">
+                <img src="./png/positions-picture/2.png" alt="position-picture" class="main-card-img">
+                <p class="position-name">Overalls</p>
+                <p class="position-price">$140</p>
+            </a>
+            <a href="./models.html" class="main-card">
+                <img src="./png/positions-picture/3.png" alt="position-picture" class="main-card-img">
+                <p class="position-name">Jacket</p>
+                <p class="position-price">$90</p>
+            </a>
+            <a href="./models.html" class="main-card">
+                <img src="./png/positions-picture/4.png" alt="position-picture" class="main-card-img">
+                <p class="position-name">Overalls</p>
+                <p class="position-price">$160</p>
+            </a>
         </div>
     </section>
     <section class="news-section container">
         <div class="header-strape">
             <div class="header-name">News</div>
-            <a href="#" class="view-all">View all</a>
+            <button class="view-all view-all-second">View all</button>
         </div>
         <div class="news-content">
             <div class="news-left-column">
@@ -90,25 +109,27 @@
     <section class="category container">
         <div class="header-strape">
             <div class="header-name">Shop by category</div>
-            <a href="#" class="view-all">View all</a>
+            <button class="view-all view-all-thirst">View all</button>
         </div>
         <div class="main-cards">
-            <div class="main-card">
+            <a href="#" class="main-card">
                 <img src="./png/category-picture/jeans.png" alt="position-picture" class="main-card-img">
                 <p class="position-name">Jeans</p>
-            </div>
-            <div class="main-card">
+            </a>
+            <a href="#" class="main-card">
                 <img src="./png/category-picture/Shirts.png" alt="position-picture" class="main-card-img">
                 <p class="position-name">Shirts</p>
-            </div>
-            <div class="main-card">
+            </a>
+            <a href="#" class="main-card">
                 <img src="./png/category-picture/jackets.png" alt="position-picture" class="main-card-img">
                 <p class="position-name">Jackets</p>
-            </div>
-            <div class="main-card">
+            </a>
+            <a href="#" class="main-card">
                 <img src="./png/category-picture/overalls.png" alt="position-picture" class="main-card-img">
                 <p class="position-name">Overalls</p>
-            </div>
+            </a>
+            
+            
         </div>
     </section>
     <div class="footer">
@@ -128,8 +149,5 @@
         </ul>
     </div>
 <script src="index.js"></script>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 </html>
