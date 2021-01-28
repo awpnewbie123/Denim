@@ -151,10 +151,12 @@ body {
     color: #151C22;
     border: none;
     background-color: white;
+    outline: none;
+    cursor: pointer;
 }
 .view-all::after {
     content: '';
-    width: 75px;
+    width: 100%;
     height: 2px;
     background-color: #151C22;
     position: absolute;
@@ -199,6 +201,9 @@ body {
     font-weight: bold;
     font-size: 16px;
     line-height: 19px;
+}
+.models .main-cards {
+    max-height: none;
 }
 /* news */
 /* .news-section {} */
